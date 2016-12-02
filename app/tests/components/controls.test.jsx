@@ -12,6 +12,8 @@ describe('Controls', () => {
        expect(Controls).toExist();
     });
 
+
+
     describe('render', () =>{
        it('should render pause when started', () => {
            var controls = TestUtils.renderIntoDocument(<Controls countdownStatus="started"/>);
