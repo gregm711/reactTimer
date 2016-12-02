@@ -11,7 +11,6 @@ var Main  = (props) => {
 				<div className="columns medium-6 large-4 small-centered">
 					<h1 className="text-center">Timer</h1>
 					{props.children}
-					<Clock/>
 					<Controls/>
 				</div>
 			</div>
